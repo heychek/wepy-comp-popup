@@ -1,7 +1,7 @@
 {
-  "name": "popup",
+  "name": "my-wpy-pop",
   "version": "1.0.0",
-  "description": "",
+  "description": "wepy 框架下的小程序弹窗组件",
   "main": "Popup.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
