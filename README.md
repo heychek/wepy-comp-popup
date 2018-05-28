@@ -1,20 +1,20 @@
-## Popup 组件的使用
+### Popup 组件的使用
 
 > 说明：npm 版本需要 6.1 以上
 
-1.  安装
+### 一、安装
 
 ```
 npm install my-wpy-pop --save
 ```
 
-2.  引用
+### 二、引用
 
 ```
 import Popup from 'my-wpy-pop';
 ```
 
-3.  声明组件
+### 三、声明组件
 
 ```
 // 声明组件，分配组件id
@@ -23,8 +23,9 @@ components = {
 }
 ```
 
-4.  页面使用
-    > 将弹窗中的内容放到`<Popup></Popup>`标签中即可,Popup 需要传入 isShow，当 isShow 为 false 时不显示，反之显示
+### 四、页面使用
+
+> 将弹窗中的内容放到`<Popup></Popup>`标签中即可,Popup 需要传入 isShow，当 isShow 为 false 时不显示，反之显示
 
 ```
 <Popup :isShow.sync="isShow">
@@ -34,7 +35,7 @@ components = {
 </Popup>
 ```
 
-5.  js 获取点击事件
+### 五、js 获取点击事件
 
 > 如需获取用户点击蒙层部分事件（有时需要支持用户点击蒙层部分弹窗消失）。则需要在调用时添加`@hide.user="方法名"`，然后在 js 的 method 方法中定义该方法即可
 
@@ -52,7 +53,7 @@ method = {
 }
 ```
 
-6.  完整使用示例如下
+### 六、完整使用示例如下
 
 ```
 <template>
