@@ -1,8 +1,1 @@
-#node_modules/
-#sftp-config.json
-#diff
-#log
-#npm-debug.log
-#lib/
-#demo/
-#.vscode
+node_modules/

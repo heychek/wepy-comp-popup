@@ -1,6 +1,6 @@
 {
-  "name": "my-wpy-pop",
-  "version": "1.0.4",
+  "name": "wpy-popup",
+  "version": "1.0.1",
   "description": "wepy 框架下的小程序弹窗组件",
   "main": "Popup.wpy",
   "scripts": {
@@ -10,7 +10,9 @@
     "type": "git",
     "url": "git+https://github.com/hckisagoodboy/wepy-comp-popup.git"
   },
-  "keywords": ["popup"],
+  "keywords": [
+    "popup"
+  ],
   "author": "kevin",
   "license": "MIT",
   "devDependencies": {
