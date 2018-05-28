@@ -1,0 +1,10 @@
+<template>
+  <view class="Popup-root" @touchmove.stop="true" @tap="hide" wx:if="{{isShow}}">
+    <view class="Popup-pop" @tap.stop="catchForNotHide" animation="{{animation}}">
+      <slot></slot>
+    </view>
+  </view>
+</template>
+
+<style scoped lang="less" src='./Popup.less' />
+<script src="./Popup.js" />
