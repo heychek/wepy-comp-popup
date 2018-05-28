@@ -1,8 +1,8 @@
 {
   "name": "my-wpy-pop",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "wepy 框架下的小程序弹窗组件",
-  "main": "Popup.js",
+  "main": "Popup.wpy",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,11 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/hckisagoodboy/wepy-comp-popup.git"
   },
-  "keywords": [
-    "popup"
-  ],
+  "keywords": ["popup"],
   "author": "kevin",
   "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-1": "^6.16.0"
+  },
   "bugs": {
     "url": "https://github.com/hckisagoodboy/wepy-comp-popup/issues"
   },
