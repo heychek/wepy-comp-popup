@@ -1,6 +1,17 @@
-.Popup-root {
+// .Popup-root {//   position: fixed;
+//   z-index: 99999;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   right: 0;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   background-color: rgba(0, 0, 0, 0.5);
+// }
+.mask {
   position: fixed;
-  z-index: 100;
+  z-index: 99999;
   top: 0;
   bottom: 0;
   left: 0;
@@ -12,6 +23,8 @@
 }
 
 .Popup-pop {
-  position: absolute;
+  position: fixed;
   z-index: 100000;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }

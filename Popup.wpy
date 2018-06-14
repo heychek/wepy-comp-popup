@@ -1,6 +1,17 @@
 <template>
-  <view class="Popup-root" @touchmove.stop="true" @tap="hide" wx:if="{{isShow}}">
-    <view class="Popup-pop" @tap.stop="catchForNotHide" animation="{{animation}}">
+  <view
+    class="Popup-root" 
+    @tap="hide"
+    wx:if="{{isShow}}"
+  >
+    <view class="mask" @touchmove.stop="catchForNotHide"></view>
+    <view
+      class="Popup-pop"
+      id="pop"
+      style="height: {{height}}rpx; width: {{width}}rpx; top: calc(50% - {{height}}rpx/2); left: calc(50% - {{width}}rpx/2)"
+      @tap.stop="catchForNotHide" 
+      @touchmove="catchForNotHide"
+    >
       <slot></slot>
     </view>
   </view>

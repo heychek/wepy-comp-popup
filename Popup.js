@@ -6,6 +6,14 @@ export default class Popup extends wepy.component {
       type: Boolean,
       value: true
     },
+    width: {
+      type: Number,
+      value: 0
+    },
+    height: {
+      type: Number,
+      value: 0
+    }
   }
 
   methods = {
